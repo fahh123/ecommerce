@@ -45,3 +45,56 @@ a:hover {
 #btn-mobile {
     display: none;
 }
+
+#carouselExampleInterval {
+    position: relative;
+    z-index: 10;
+    gap: 0.5rem;
+}
+
+.carouselExampleInterval .carousel-item img {
+    height: auto ;
+
+}
+
+/*config banner */
+
+.section-banner-home {
+    width: 100%;
+    height: 500px;
+    padding: 50px;
+    margin: 30px auto;
+    background-color: #005caa;
+}
+
+.section-banner-home img {
+    height: 400px ;
+}
+
+.section-banner-home .texto-banner {
+    margin-top: 30px;
+    font-size: 22px;
+
+}
+
+.section-banner-home .texto-banner h1 {
+    font-size: 30px;
+    width: 60%;
+    font-weight: 500;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.section-banner-home .texto-banner p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.section-banner-home .texto-banner a {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 4px 14px;
+    font-size: 15px;
+}
