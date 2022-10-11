@@ -9,7 +9,7 @@ a {
     font-family: sans-serif;
 }
 
-#header #menu:hover {
+#header #menu a:hover {
     background: rgb(0, 0, 0, 0.05);
     
     
