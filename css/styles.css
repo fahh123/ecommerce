@@ -26,15 +26,19 @@ a {
 
 #header {
     width: 100%;
-    position: fixed; 
+    position: relative; 
     z-index: 90;
     box-sizing: border-box;
     height: 100px;
-    padding: 1rem ;
+    padding: 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7
+    background: #e7e7e7;
+    
+    
+    
+    
 }
 
 #menu {
@@ -136,13 +140,12 @@ border-bottom: 2px solid rgba(0,0,0, 0.5);
 
     .embed-container {
         position: relative;
-        padding-bottom: 56,25%;
-        height: 100%;
+        padding-bottom: 0px;
         max-width: 100%;
-        height: auto;
+        height: 300px;
         margin-top: 30px;
         margin-bottom: 30px;
-        padding-top: 100px;
+        padding-top: 0;
     }
     
     .embed-container iframe, .embed-container object, .embed-container embed {
@@ -330,13 +333,12 @@ border-bottom: 2px solid rgba(0,0,0, 0.5);
 /*css pagina media.html */
 .embed-container {
     position: relative;
-    padding-bottom: 56,25%;
-    height: 100%;
+    padding-bottom: 0px;
     max-width: 100%;
-    height: auto;
+    height: 300px;
     margin-top: 30px;
     margin-bottom: 30px;
-    padding-top: 150px;
+    padding-top: 0;
 }
 
 .embed-container iframe, .embed-container object, .embed-container embed {
