@@ -142,7 +142,7 @@ border-bottom: 2px solid rgba(0,0,0, 0.5);
         position: relative;
         padding-bottom: 0px;
         max-width: 100%;
-        height: 300px;
+        height:  auto;
         margin-top: 30px;
         margin-bottom: 30px;
         padding-top: 0;
@@ -156,6 +156,9 @@ border-bottom: 2px solid rgba(0,0,0, 0.5);
         height: 100%;
     }
     
+    .embed-container iframe {
+        margin-top: 10px;
+    }
 }
 
 
@@ -335,9 +338,9 @@ border-bottom: 2px solid rgba(0,0,0, 0.5);
     position: relative;
     padding-bottom: 0px;
     max-width: 100%;
-    height: 300px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    height: auto;
+    margin-top: 18px;
+    margin-bottom: 0;
     padding-top: 0;
     padding-right: 30px;
     padding-left: 30px;
@@ -354,4 +357,8 @@ border-bottom: 2px solid rgba(0,0,0, 0.5);
     border-radius: 1rem;
     box-shadow: gray 0.5em 0.5em 0.3em;
 
+}
+
+.embed-container .col-sm{
+    margin-top: 10px;
 }
