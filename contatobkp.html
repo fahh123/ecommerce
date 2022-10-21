@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
-    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
     <link rel="shortcut icon" href="img/ico/57589.png" type="image/x-icon">
     <title>site ecommerce| ecommerce</title>
@@ -34,79 +33,33 @@
     <div class="contato">
         <div class="container">
             <div class="row d.flex justify-content-center">
-                <section class="col-12">
+                <section>
                     <h2>entre em contato conosco!</h2>
                     <p>para duvidas, elogios e relamações</p>
                 </section>
 
                 <!--fim da tag section-->
                 <!--inicio form-->
-                <div class="col-md-6">
-                    <div class="well well-sm">
-                        <form class="form-horizontal" method="post">
-                            <fieldset>
-                                <legend class="text-left header">preencha suas informações
-                                    <div class="form-group">
-                                        <div class="col-md-10" col-md-offset-1>
-                                            <input id="fname" name="name" type="text"
-                                             placeholder="insira seu primeiro nome" class="form-control" required>
+                <div class="col-md-4">
+                    <div class="form_main">
+                        <h4 class="heading"><strong>contato</strong>expresso<span></span></h4>
+                        <div class="form"></div>
+                        <form action="#" method="post" id="contactFrm" name="conatctFrm">
+                        <input type="text" required="" placeholder="por favor , insira o nome completo" value="" name="name" class="txt">
+                        <input type="text" required="" placeholder="por favor , insira o telefone value" name="name" class="txt">
+                        <input type="text" required="" placeholder="por favor , insira o email" value="" name="name" class="txt">
 
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-md-10" col-md-offset-1>
-                                            <input id="lname" name="name" type="text"
-                                             placeholder="insira seu ultimo nome" class="form-control" required>
+                        <textarea placeholder="insira sua mensagem" name="mess" type="text" class="text_3" cols="30" rows="10"></textarea>
+                        
+                    </form>
 
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-md-10" col-md-offset-1>
-                                            <input id="email" name="name" type="email"
-                                             placeholder="insira seu email" class="form-control" required>
+                    <input type="submit" value="submit" name="submit" class="txt2">
 
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-md-10" col-md-offset-1>
-                                            <input id="phone" name="phone" type="text"
-                                             placeholder="insira seu telefone" class="form-control" required>
-
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-md-10" col-md-offset-1>
-                                            <textarea id="message" name="message"
-                                             placeholder="insira sua mensagem que retornaremos em até 2 dias uteis" class="form-control" rows="7" required></textarea>
-
-                                        </div>
-                                    </div>
-                                    <div class="form-group">
-                                        <div class="col-md-12 text-center">
-                                            <button type="submit" class="form-button">enviar</button>
-                                        </div>
-                                    </div>
-                                </legend>
-                            </fieldset>
-                        </form>
                     </div>
                 </div>
-                
-                <!--fim form-->
-
-                <div class="col-md-6">
-                    <div class="panel panel-default">
-                        <div class="text-center header">onde estamos</div>
-                        <div class="panel-body text-center">
-                            <h4>endereço</h4>
-                            
-
-                        </div>
-                        <div id="map1" class="map">
-
-                        </div>
-                    </div>
-                </div>
+            </div>
+        </div>
+    </div>
    
     
 
@@ -173,16 +126,7 @@
 </body>
 
     <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
-
     <script src="./js/script_menu.js"></script>
-
-    <script type="text/javascript" src="./js/map.js"></script>
-
-
-
-    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
-
-
     
 
 </html>
