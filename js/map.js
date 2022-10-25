@@ -10,8 +10,8 @@ jQuery(function ($) {
             title: "localização"
         });
         var map = new google.maps.Map(document.getElementById("map1"),
-        mapOptions);
+        mapOption);
         marker.setMap(map);
     }
     init_map1();
-})
+});
